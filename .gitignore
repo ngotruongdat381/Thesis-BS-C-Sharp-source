@@ -301,3 +301,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.sln
+*.settings
+UsingclrOpencv/Properties/Settings.Designer.cs
+UsingclrOpencv/Properties/Resources.resx
+UsingclrOpencv/Properties/Resources.Designer.cs
+UsingclrOpencv/Properties/AssemblyInfo.cs
+UsingclrOpencv/Form1.resx
+UsingclrOpencv/App.config
+*.csproj
