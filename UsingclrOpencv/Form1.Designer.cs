@@ -61,7 +61,7 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(12, 54);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(320, 500);
+            this.pictureBox1.Size = new System.Drawing.Size(500, 600);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -69,9 +69,9 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(342, 54);
+            this.pictureBox2.Location = new System.Drawing.Point(534, 54);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(320, 500);
+            this.pictureBox2.Size = new System.Drawing.Size(500, 600);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -98,9 +98,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(681, 54);
+            this.richTextBox1.Location = new System.Drawing.Point(1057, 54);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(271, 386);
+            this.richTextBox1.Size = new System.Drawing.Size(185, 386);
             this.richTextBox1.TabIndex = 6;
             this.richTextBox1.Text = "";
             // 
@@ -118,7 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(960, 570);
+            this.ClientSize = new System.Drawing.Size(1266, 677);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.open_btn);

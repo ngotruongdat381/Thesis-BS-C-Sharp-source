@@ -40,6 +40,8 @@ namespace UsingclrOpencv
         }
         private void button3_MouseClick(object sender, MouseEventArgs e)
         {
+            outputText = "";
+            richTextBox1.Text = "";
             //allow user to open jpg file 
             OpenFileDialog dlogOpen = new OpenFileDialog();
             dlogOpen.Filter = "Jpg Files|*.jpg";
