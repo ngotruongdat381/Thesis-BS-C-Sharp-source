@@ -51,8 +51,8 @@ namespace UsingclrOpencv
         private void button2_Click(object sender, EventArgs e)
         {
             //Save new input
-            string noFile = currentFileName.Substring(Math.Max(0, currentFileName.Length - 6));
-            noFile = noFile.Substring(0, 2);
+            string noFile = currentFileName.Substring(Math.Max(0, currentFileName.Length - 7));
+            noFile = noFile.Substring(0, 3);
             StreamWriter file = new System.IO.StreamWriter("D:\\605\\Source code\\UserInput\\input_" + noFile + ".txt");
             file.WriteLine(outputText);
             file.Close();
@@ -127,8 +127,8 @@ namespace UsingclrOpencv
             g.SmoothingMode = SmoothingMode.AntiAlias;
 
             //Read file Existed User input
-            string noFile = currentFileName.Substring(Math.Max(0, currentFileName.Length - 6));
-            noFile = noFile.Substring(0, 2);
+            string noFile = currentFileName.Substring(Math.Max(0, currentFileName.Length - 7));
+            noFile = noFile.Substring(0, 3);
             String path = "D:\\605\\Source code\\UserInput\\input_" + noFile + ".txt";
             if (File.Exists(path))
             {
