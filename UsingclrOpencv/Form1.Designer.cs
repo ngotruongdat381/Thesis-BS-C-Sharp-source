@@ -42,7 +42,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(329, 12);
+            this.button1.Location = new System.Drawing.Point(494, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 23);
             this.button1.TabIndex = 0;
@@ -69,7 +69,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(534, 54);
+            this.pictureBox2.Location = new System.Drawing.Point(528, 54);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(500, 600);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -78,9 +78,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(450, 12);
+            this.button2.Location = new System.Drawing.Point(649, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(97, 23);
             this.button2.TabIndex = 4;
             this.button2.Text = "Save input";
             this.button2.UseVisualStyleBackColor = true;
@@ -88,11 +88,11 @@
             // 
             // open_btn
             // 
-            this.open_btn.Location = new System.Drawing.Point(547, 12);
+            this.open_btn.Location = new System.Drawing.Point(324, 12);
             this.open_btn.Name = "open_btn";
-            this.open_btn.Size = new System.Drawing.Size(75, 23);
+            this.open_btn.Size = new System.Drawing.Size(100, 23);
             this.open_btn.TabIndex = 5;
-            this.open_btn.Text = "Open";
+            this.open_btn.Text = "Open Thumnail";
             this.open_btn.UseVisualStyleBackColor = true;
             this.open_btn.Click += new System.EventHandler(this.open_btn_Click);
             // 
